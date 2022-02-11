@@ -1,12 +1,12 @@
 import java.util.Scanner;
-public class ch5 {
+public class ch7 {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 
-        int A = sc.nextInt();
-        int B = sc.nextInt();
+        double A = sc.nextInt();
+        double B = sc.nextInt();
 
-        System.out.println(A - B);
+        System.out.print(A / B);
         sc.close();
     }
 }
